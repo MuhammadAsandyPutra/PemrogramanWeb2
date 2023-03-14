@@ -5,7 +5,7 @@ $r_float  = 4.2;
 $t_float  = 5.4;
 $Volume_float  = 0.33 * $phi_float *$r_float *$r_float *$t_float;
 
-echo number_format($Volume_float,3). " m3";
+echo number_format($Volume_float,3). " m3"; //number_format() digunakan untuk mengatur panjangnya angka desimal yang akan ditampilkan
 
 
 ?>
