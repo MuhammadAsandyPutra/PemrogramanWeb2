@@ -1,5 +1,5 @@
 <?php 
-$Series[1] = "Samsung Galaxy S22";
+$Series[1] = "Samsung Galaxy S22"; //merupakan associative array, pada array ini kita menginisiasikan nilai pada array dengan sebuah key unik
 $Series[2] = "Samsung Galaxy S22+";
 $Series[3] = "Samsung Galaxy A03";
 $Series[4] = "Samsung Xover 5";
@@ -29,7 +29,7 @@ $Series[4] = "Samsung Xover 5";
         <th>Daftar Smartphone Samsung</td>    
     </tr>
     <tr>
-        <td><?php echo $Series[1]; ?></td>    
+        <td><?php echo $Series[1]; ?></td>   //contoh pemanggilan array dengan key uniknya untuk ditampilkan
     </tr>
     <tr>
         <td><?php echo $Series[2]; ?></td>    
