@@ -1,6 +1,6 @@
 <?php 
 $Seri = array("Samsung Galaxy S22", "Samsung Galaxy S22+", "Samsung Galaxy A03", "Samsung Xcover 5");
-
+//indexed array disini digunakan sebagai isi dari data yang ada pada tabel
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ $Seri = array("Samsung Galaxy S22", "Samsung Galaxy S22+", "Samsung Galaxy A03",
 <body>
 <table>
     <tr>
-        <td><?php echo $Seri[0]; ?></td>    
+        <td><?php echo $Seri[0]; ?></td>   //memanggil nilai dari yang disimpan array sesuai dengan indexnya 
     </tr>
     <tr>
         <td><?php echo $Seri[1]; ?></td>    
