@@ -2,8 +2,8 @@
 $Seri = array("Samsung Galaxy S22", "Samsung Galaxy S22+", "Samsung Galaxy A03", "Samsung Xcover 5");
 //indexed array disini digunakan sebagai isi dari data yang ada pada tabel
 ?>
-
-<!DOCTYPE html>  /*tag awal untuk html*/
+<!-- tag awal untuk html -->
+<!DOCTYPE html>  
 <html lang="en">
 <head>
     <meta charset="UTF-8">
