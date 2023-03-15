@@ -27,7 +27,7 @@ $Seri = array("Samsung Galaxy S22", "Samsung Galaxy S22+", "Samsung Galaxy A03",
         <th><?php echo "Daftar Smartphone Samsung"; ?></th>    
     </tr>
     <tr>
-        <td><?php echo $Seri[0]; ?></td>   /*proses pemanggilan dan mencetak nilai array pada tabel yang telah dibuat*/
+        <td><?php echo $Seri[0]; ?></td>   <!--proses pemanggilan dan mencetak nilai array pada tabel yang telah dibuat -->
     </tr>
     <tr>
         <td><?php echo $Seri[1]; ?></td>    
