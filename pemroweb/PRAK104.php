@@ -10,7 +10,7 @@ $Seri = array("Samsung Galaxy S22", "Samsung Galaxy S22+", "Samsung Galaxy A03",
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>                     /*stytling yang digunakan pada tabel agar terlihat seperti pada contoh */
+    <style>                     /*styling yang digunakan pada tabel agar terlihat seperti pada contoh */
         table,td {
             border:1px solid;
         }
