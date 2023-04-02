@@ -24,7 +24,7 @@
         <input type="submit" name="konversi" value="konversi">
 </form>
 <?php
-    if(isset($_POST['konversi'],$_POST['satuan_akhir'],$_POST['hasil'])) {
+    if(isset($_POST['konversi'])) {
         $suhu = $_POST['suhu'];
 		$satuan_awal = $_POST['satuan_awal'];
 		$satuan_akhir = $_POST['satuan_akhir'];
@@ -98,8 +98,6 @@
                 
         }
     
-        // echo "<h2><b>Hasil konversi: $hasil $satuan_akhir</b></h2>";
-        // echo "<p>{$suhu} {$awal} sama dengan {$hasil} {$akhir}</p>";
         echo "<h2><b>Hasil konversi: $hasil $satuan_akhir</b></h2>";
 
     }
